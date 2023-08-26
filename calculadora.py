@@ -14,5 +14,8 @@ print("\nDiferença entre os valores: ",subtração)
 multiplicação=s1*s2
 print("\nMultiplicação entre os valores: ",multiplicação)
 
-divisor=s1/s2
-print("\nDivisão entre os valores: ",divisor)
+if s2!=0:
+    print("\nA divisão entre os valores é: ",s1/s2)
+else:
+    print("\n>>>Impossível !")
+
